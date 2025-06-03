@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+ <link rel="stylesheet" href="gene.css">
+ </head>
+<body>
+   
+  <div id="otpcon">
+            <h1>OTP Validation</h1>
+            <form>
+              <p>Enter OTP:<input type="text" name="otp" id="otp"></p>
+              <button onclick="validate()">Validate OTP</button>
+
+            </form>
+           </div>
+  
+   <script>
+   
+     function validate(){
+      event.preventDefault();
+      alert("Login successfully");
+       window.location.href="vote.html";
+     }
+   </script>
+   
+</body>
+<html>

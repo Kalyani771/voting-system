@@ -1,0 +1,52 @@
+#container{
+    height:100vh;
+    width:100hw;
+    justify-content:center;
+    align-items:center;
+    background-image:url("regis.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow-y:auto;
+}
+
+h1{
+    text-align:center;   
+}
+input{
+    text-align:center;
+    padding-left:25px;
+    padding-right:25px;
+    padding:5px;
+    border-radius:5px;
+    border-width: 2px;
+    border-color:black;
+    margin-left:10px;
+    
+}
+p{
+    text-align:center;
+    font-size:15px;
+    font-weight:bolder;
+}
+button:hover{
+    background-color: rgba(88, 88, 88, 0.89);
+ }
+textArea{
+    
+    border-radius:5px;
+    border-width: 2px;
+    border-color:black ;
+    margin-left:10px;
+}
+button{
+   
+   text-align:center;
+   padding:10px;
+   padding-left:40px;
+   padding-right:40px;
+   background-color:black;
+   color:white;
+   font-weight:bold;
+   margin-left:450px;
+}

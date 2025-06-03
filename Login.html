@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LoginForm</title>
+        <link rel="stylesheet" href="Login.css">
+    </head>
+    <body>
+        <div id="container">
+        <h1>LOGIN FORM</h1>
+        <form  align="center" action="Login.php" method="POST" onsubmit="return checkEmail();">
+            
+            <p>Gmail:<input type="text" name="mail" id="mail" placeholder="Enter Gmail"></p>
+            <button>SUBMIT</button>
+
+        </form>
+        <p>Do not have an account?go to <a href="Register.html" style="font-size:15px;">REGISTER PAGE</a></p>
+        </div>
+        
+        <script>
+        let generate="";
+    function checkEmail() {
+        let mail = document.getElementById("mail").value.trim();
+
+        if (mail === "") {
+            alert("Please enter your Gmail!");
+            event.preventDefault();
+            return false;
+        }else{
+          return true;
+        }
+</script>
+
+    </body>
+    
+</html>
